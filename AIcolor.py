@@ -6,6 +6,7 @@ cap = cv2.VideoCapture('red.mp4') # enter 0 for camera
 while True:
     _, frame = cap.read()
     hsv_frame = cv2.cvtColor( frame, cv2.COLOR_BGR2HSV)
+    
         # Detecting Red color
     low_red = np.array([161,155,84])
     high_red = np.array([179, 255, 255])
