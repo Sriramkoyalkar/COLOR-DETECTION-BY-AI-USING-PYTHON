@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-cap = cv2.VideoCapture('red.mp4') # enter 0 for camera
+cap = cv2.VideoCapture('rgb.mp4') # enter 0 for camera
 
 while True:
     _, frame = cap.read()
